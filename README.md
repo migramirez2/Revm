@@ -1,11 +1,11 @@
 # revm
 
-[![CI](https://github.com/bluealloy/revm/actions/workflows/ci.yml/badge.svg)][gh-ci]
+[![CI](https://github.com/migramirez2/revm/actions/workflows/ci.yml/badge.svg)][gh-ci]
 [![License](https://img.shields.io/badge/License-MIT-orange.svg)][mit-license]
 [![Chat][tg-badge]][tg-url]
 
 [mit-license]: https://opensource.org/license/mit/
-[gh-ci]: https://github.com/bluealloy/revm/actions/workflows/ci.yml
+[gh-ci]: https://github.com/migramirez2/revm/actions/workflows/ci.yml
 [tg-url]: https://t.me/+Ig4WDWOzikA3MzA0
 [tg-badge]: https://img.shields.io/badge/chat-telegram-blue
 
@@ -40,14 +40,14 @@ This project tends to use the newest rust version, so if you're encountering a b
 
 There were some big efforts on optimization of revm:
 
-* Optimizing interpreter loop: https://github.com/bluealloy/revm/issues/7
-* Introducing Bytecode format (and better bytecode analysis): https://github.com/bluealloy/revm/issues/121
-* Unification of instruction signatures: https://github.com/bluealloy/revm/pull/283
+* Optimizing interpreter loop: https://github.com/migramirez2/revm/issues/7
+* Introducing Bytecode format (and better bytecode analysis): https://github.com/migramirez2/revm/issues/121
+* Unification of instruction signatures: https://github.com/migramirez2/revm/pull/283
 
 # Building from source
 
 ```shell
-git clone https://github.com/bluealloy/revm.git
+git clone https://github.com/migramirez2/revm.git
 cd revm
 cargo build --release
 ```
@@ -123,18 +123,12 @@ cargo run -p revm --features std,serde-json,ethersdb --example generate_block_tr
 
 # Documentation
 
-The book can be found at github page here: https://bluealloy.github.io/revm/
+The book can be found at github page here: https://migramirez2.github.io/revm/
 
-The documentation (alas needs some love) can be found here: https://bluealloy.github.io/revm/docs/
+The documentation (alas needs some love) can be found here: https://migramirez2.github.io/revm/docs/
 
 To serve the mdbook documentation in a local environment, ensure you have mdbook installed (if not install it with cargo) and then run:
 
 ```shell
 mdbook serve documentation
 ```
-
-# Contact
-
-There is public telegram group: https://t.me/+Ig4WDWOzikA3MzA0
-
-Or if you want to contact me directly, here is my email: dragan0rakita@gmail.com and telegram: https://t.me/draganrakita
